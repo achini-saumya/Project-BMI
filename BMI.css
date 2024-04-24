@@ -1,0 +1,227 @@
+body {
+    background: url(Assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img1{
+    width: 35%;
+    height: auto;
+    float: right;
+    padding: 10px;
+}
+
+
+.container {
+    background-color: rgba(245, 245, 245, 0.849);
+    width: 60%;
+    padding: 40px; 
+    border: 1px pink;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {  
+    font-size: 65px;
+    font-style: oblique;
+    color: rgb(54, 204, 9);
+    text-shadow: 2px 2px #f1edea;
+}
+
+    
+
+.container #weightLabel {
+    width: 60%;
+    height: 2vw;
+    font-size: 25px;
+}
+
+
+.container #heightLabel {
+    width: 60%;
+    height: 2vw;
+    font-size: 25px;    
+}
+
+
+.container input:focus{
+    outline: none;
+}
+
+
+.container #mySubmit {
+    border-color: rgb(2, 109, 43);
+    border-style: solid;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.6vw;   
+    padding: 8px;
+    transition: background-color 0.3s;
+}
+
+
+.container #mySubmit:hover {
+    background-color: rgba(6, 112, 11, 0.2); 
+}
+
+
+#myH3 {
+    color: darkgreen;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+#myText1{
+    border: solid;
+    border-color: transparent;
+    color: black;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px; 
+    font-size: 1.5vw;   
+    padding: 3px;
+}
+
+
+#myText2{
+    border: solid;
+    border-color: transparent;
+    color: black;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    font-size: 1.5vw;  
+    padding: 3px;  
+}
+
+
+#myH4{
+    color: rgb(1, 2, 1);
+    font-size: 25px;
+    text-align: left;
+}
+
+
+#myH5{
+    color: darkred;
+    font-size: 27px;
+    text-align: left;   
+}
+
+
+#myH6{
+    color: darkred;
+    font-size: 27px;
+    text-align: left;   
+}
+
+
+#myH7{
+    color: rgb(3, 117, 3);
+    font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: url(Assets/b_g.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+       /* backdrop-filter: blur(15px);*/
+        background-color: rgba(255, 255, 255, 0.87);
+        width: 60%; 
+    }
+    
+
+    .title{
+        color: rgb(201, 9, 9);
+        font-size: 10vw;
+    }
+
+    
+    .container #mySubmit {
+        font-size: 2.5vw;
+        
+    }
+
+    .task {
+        font-size: 4vw;
+    }
+    
+    .container #weightLabel {
+        width: 60%;
+        height: 2vw; 
+        font-size: 4vw;    
+    }
+    
+    .container #heightLabel {
+        width: 60%;
+        height: 2vw;
+        font-size: 4vw;  
+    }
+
+    #myText1{
+        width:40%;
+        height: 3.5vw; 
+        font-size: 3vw;    
+    }
+
+    #myText2{
+        width: 40%;
+        height: 3.5vw; 
+        font-size: 3vw;    
+    }
+    
+    #myH3 {
+        color: darkgreen;
+        font-size: 6vw;    
+        text-align: center;
+    }
+   
+    #myH4{
+        color: black;
+        font-size: 3.8vw;
+        text-align: left;
+    }
+
+    #myH5{
+        color: darkred;
+        font-size: 4vw;
+        text-align: left;
+    }
+
+    #myH6{
+        color: darkred;
+        font-size: 4vw;    
+        text-align: left;
+
+        
+    }
+    #myH7{
+        color: green;
+        font-size: 4.5vw;    
+        text-align: center;
+    }
+
+    
+    
+}
